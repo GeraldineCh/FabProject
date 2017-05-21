@@ -5,3 +5,46 @@
 .nunito {
 	font-family: 'Nunito', sans-serif;
 }
+
+.your-class{
+	margin: 13%;
+}
+
+section{
+	background-color: black;
+}
+
+/*.owl-carousel .item{
+  margin: 3px;
+}
+
+.owl-carousel .item img{
+  display: block;
+  width: 30px;
+  height: auto;
+	background-color: black;
+}*/
+
+
+    .lololo {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    /*.slick-slide {
+      margin: 0px 20px;
+			Quite este porqe le daba algo plomo automaicamente
+    }*/
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        background-color: black;
+    }

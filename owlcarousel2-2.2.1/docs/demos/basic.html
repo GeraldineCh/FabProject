@@ -1,39 +1,84 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
   <head>
+
+    <!-- head -->
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fab</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/fabicon.jpg">
-    <link rel="stylesheet" href="owlcarousel2-2.2.1/dist/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Basic usage demo">
+    <meta name="author" content="David Deutsch">
+    <title>
+      Basic Demo | Owl Carousel | 2.2.1
+    </title>
+
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../assets/css/docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Yeah i know js should not be in header. Its required for demos.-->
+
+    <!-- javascript -->
+    <script src="../assets/vendors/jquery.min.js"></script>
+    <script src="../assets/owlcarousel/owl.carousel.js"></script>
   </head>
   <body>
-    <div class="lololo col-12">
 
+    <!-- header -->
+    <header class="header">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="brand left">
+            <h3>
+              <a href="/OwlCarousel2/">owl.carousel.js</a>
+            </h3>
+          </div>
+          <a id="toggle-nav" class="right">
+            <span></span> <span></span> <span></span>
+          </a>
+          <div class="nav-bar">
+            <ul class="clearfix">
+              <li> <a href="/OwlCarousel2/index.html">Home</a>  </li>
+              <li class="active">
+                <a href="/OwlCarousel2/demos/demos.html">Demos</a>
+              </li>
+              <li> <a href="/OwlCarousel2/docs/started-welcome.html">Docs</a>  </li>
+              <li>
+                <a href="https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip">Download</a>
+                <span class="download"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <div class="regular slider row">
-      <div class="col-6"><img src="img\521568-236x236-1463660494-primary.png" alt=""></div>
-      <div class=""><img src="img\521569-236x236-1463660505-primary.png" alt=""></div>
-      <div class=""><img src="img\521664-236x236-1464087280-primary.png" alt=""></div>
-      <div class=""><img src="img\521947-236x236-1464174439-primary.png" alt=""></div>
-      <div class=""><img src="img\522249-236x236-1466633776-primary.png" alt=""></div>
-      <div class=""><img src="img\522661-236x236-1465581010-primary.png" alt=""></div>
-      <div class=""><img src="img\522662-236x236-1465581224-primary.png" alt=""></div>
-      <div class=""><img src="img\523224-236x236-1467889683-primary.png" alt=""></div>
-      <div class=""><img src="img\523408-300x300-1466769266-primary.png" alt=""></div>
+    <!-- title -->
+    <section class="title">
+      <div class="row">
+        <div class="large-12 columns">
+          <h1>Basic</h1>
+        </div>
+      </div>
+    </section>
 
-
-    </div>
-  </div>
-<!--
+    <!--  Demos -->
     <section id="demos">
       <div class="row">
         <div class="large-12 columns">
@@ -94,7 +139,7 @@
             items:5
         }
     }
-  })</code></pre>
+})</code></pre>
           <h3 id="html">html</h3>
           <pre><code>&lt;div class=&quot;owl-carousel owl-theme&quot;&gt;
     &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;1&lt;/h4&gt;&lt;/div&gt;
@@ -109,7 +154,7 @@
     &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;10&lt;/h4&gt;&lt;/div&gt;
     &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;11&lt;/h4&gt;&lt;/div&gt;
     &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;12&lt;/h4&gt;&lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+&lt;/div&gt;</code></pre>
           <script>
             $(document).ready(function() {
               var owl = $('.owl-carousel');
@@ -134,19 +179,12 @@
         </div>
       </div>
     </section>
-    -->
-    <!--<script src="owlcarousel2-2.2.1/docs/assets/vendors/highlight.js"></script>
-    <script src="owlcarousel2-2.2.1/docs/assets/vendors/highlight.js"></script>
-    <script src="owlcarousel2-2.2.1/docs/assets/vendors/jquery.min.js"></script>
-    <script src="owlcarousel2-2.2.1/docs/assets/owlcarousel/owl.carousel.min.js"></script>-->
 
-    <script src="js/app.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- footer -->
+
+
+    <!-- vendors -->
+    <script src="../assets/vendors/highlight.js"></script>
+    <script src="../assets/js/app.js"></script>
   </body>
 </html>
