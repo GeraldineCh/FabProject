@@ -2,10 +2,9 @@
 	font-family: 'Lato', sans-serif;
 }
 
-.nunito {
-	font-family: 'Nunito', sans-serif;
+#hface {
+	height: 1em;
 }
-
 .shipping {
     background-color: #171717;
     color: white;}
@@ -24,11 +23,30 @@
 	padding-top: 0.5em;
 }
 
+input[type='search'] {
+    border-color: black;
+    width: 20em;
+}
+
+.button {
+	padding: 0.8em;
+	border-color: black;
+	background-color: white;
+}
+
+.button:hover {
+	background-color: gray;
+}
+
 .menu {
 	font-weight: bold;
 	padding: 0.2em 0;
 }
 
 a {
+	color: #4A4A4A;
+}
+
+a:hover {
 	color: gray;
 }
