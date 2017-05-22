@@ -1,3 +1,5 @@
+@import "foundation/components/inline-lists"
+
 * {
 	font-family: 'Lato', sans-serif;
 }
@@ -11,7 +13,16 @@
     color: white;
     margin-bottom: 1em;}
 
+#flag, #mail{
+	height: 1.2em;
+}
 
 #logo {
-    height: 2.2em; margin-right: 2em;}
+    height: 2.2em;
+    margin-right: 2em;}
+
+.menu {
+	font-weight: bold;
+	color: black;
+}
 
