@@ -64,6 +64,13 @@ section{
 			/*line-height: 18px;*/
 		}
 
+		figcaption{
+			font-family: "NeutraText-Bold";
+			color: #666;
+			font-size: 15px;
+			margin-left: 30px;
+		}
+
 		@font-face {
     font-family: "NeutraText-Bold";
     src: url("NeutraText-Bold.otf");
