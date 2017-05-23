@@ -12,22 +12,44 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/fabicon.jpg">
   </head>
   <body>
-<button type="button" class="alert-btn button small-3 columns" data-toggle="offCanvasRight1"><i class="icon-shopping-bag"></i><strong> Add to Bag</strong></button>
+<button type="button" class="alert-btn button small-3 columns" data-toggle="offCanvasRight1"><strong> Add to Bag</strong></button>
 
 
 <div class="row columns">
               <div class="off-canvas-wrapper">
                 <div class="off-canvas position-right" id="offCanvasRight1" data-off-canvas>
-                  <!-- CONTENT MY BAG -->
+                  <!-- Contenido del Off-Canvas-->
                   <button class="close-button" aria-label="Close menu" type="button" data-close>
-                    <i class="icon-chevron-right"></i> 
+                    <img src="img/minus.png" alt=""> 
                   </button>
                   <ul class="vertical menu title">
                     <li><a href="#">My Bag</a></li>
                   </ul>
                   <div class="off-canvas-content" data-off-canvas-content>
                     <div class="shipping">  
-
+                      <div class="my-bag-item">
+                        <div class="small-6 columns image-prod">
+                        <img src="img/example-reveal.png" class="reveal-img">
+                        </div>
+                        <div class="item-name small-6 columns">
+                        <a class="name-product">Name of the product</a>
+                          <select class="small-5 columns end sel-product">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                          </select>
+                          </div>
+                          <p class="tiny-info">Estimated Arrival <br> <span class="ex-date">Sep.23 - Sep. 24</span></p>
+                          <div class="item-price text-right">
+                          <p class="item-price">$90.05</p>
+                          </div>
+                        </div>
                     </div>
                   </div>
                   <div class="footer-off-canvas">
@@ -37,7 +59,7 @@
                         <ul class="menu vertical nested marg-left list">
                           <li>
                             <a href="#0">SubTotal</a>
-                            <span>&#36;82</span>
+                            <span>$90.05</span>
                           </li>
                           <li>
                             <a href="#0">Estimated Shipping Fee</a>
@@ -48,17 +70,19 @@
                       <ul class="vertical menu list">
                         <li>
                           <a href="#0">Total</a>
-                          <span>&#36;82</span>
+                          <span>$90.05</span>
                         </li>
                       </ul>
                     </ul>
                   </div>
                   <div class="padding-btn">
-                    <button type="button" class="button expanded black">Checkout <i class="icon-chevron-right"></i> </button>
+                    <button type="button" class="button expanded black">Checkout <strong>&gt</strong> </button>
                   </div>
                 </div>
               </div>
             </div>
+
+
 
   
     

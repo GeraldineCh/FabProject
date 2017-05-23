@@ -34,28 +34,41 @@
   border-color: #d0021b !important;
   color: #d0021b !important;
 }
-.social{
-  display: flex;
-  flex-wrap: nowrap;
-}
-@media (max-width: 600px){
-  .social{
-    flex-wrap: wrap;
-  }
-}
-.social i{
-  background: white;
-  color: #333;
-  font-size: 20px !important;
-  padding-right: 40px;
-}
-.social i:hover{
-  background: white;
-  color: #333;
-}
-.cont-off-canvas{
+
+ont-off-canvas{
   clear: both;
 }
+.image-prod {
+  display: inline-block;
+}
+.reveal-img {
+  height: 8em;
+  display: inline-block;
+}
+
+.item-name {
+  display: inline-block;
+}
+
+.name-product {
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.ex-date {
+  color: turquoise;
+}
+
+.tiny-info {
+  font-size: 8pt;
+}
+
+.item-price {
+  float: right;
+  font-weight: bold;
+}
+
 .title{
   background-color: #333;
   text-align: center;
@@ -83,9 +96,11 @@
 .title > li > a{
   justify-content: center !important;
 }
-.close-button i{
-  color: white;
+.close-button img{
+  height: 20px;
+  margin-top: 5px;
 }
+
 .list li{
   border-bottom: 1px solid #e1e1e1;
 }
