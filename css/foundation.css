@@ -2265,8 +2265,8 @@ select {
     font-size: 1.5em;
     line-height: 1; }
   .close-button, .close-button.medium {
-    right: 1rem;
-    top: 0.5rem;
+    /*right: 1rem;
+    top: 0.5rem;*/
     font-size: 2em;
     line-height: 1; }
 
