@@ -1,3 +1,4 @@
+$(document).foundation();
 // EVENTOS
 window.addEventListener("load", function (){
   resizeImage();
