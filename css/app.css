@@ -2,31 +2,122 @@
 	font-family: 'Lato', sans-serif;
 }
 
-.shop-title {
-  color: white;
-  background-color: gray;
+@media (max-width: 600px){
+  .breadcrumbs{
+    visibility: hidden;
+  }
+}
+.description h3, .description h4, .description h6{
+  font-family: 'Lato', sans-serif !important;
+}
+.description > h4 > a{
+  text-decoration: underline;
+}
+.txt-gray, .txt-gray > a{
+  color: #666;
+  font-size: 1.38rem;
+}
+.select-xs{
+  width: 70px;
+  color: #666;
+}
+.txt-red{
+  color: #dd0017;
+}
+.alert-btn{
+  background-color: #d0021b;
+}
+.alert-btn:hover{
+  background-color: #d0021b;
+}
+.txt-alert{
+  border-color: #d0021b !important;
+  color: #d0021b !important;
+}
+.social{
+  display: flex;
+  flex-wrap: nowrap;
+}
+@media (max-width: 600px){
+  .social{
+    flex-wrap: wrap;
+  }
+}
+.social i{
+  background: white;
+  color: #333;
+  font-size: 20px !important;
+  padding-right: 40px;
+}
+.social i:hover{
+  background: white;
+  color: #333;
+}
+.cont-off-canvas{
+  clear: both;
+}
+.title{
+  background-color: #333;
   text-align: center;
 }
-
-.total {
-  display: block;
+.title a{
+  color: white;
 }
-
-.product-title {
-  font-size: 10pt;
+.position-right{
+  width: 300px !important;
+  transform: translateX(300px);
 }
-
-.close-button {
-  float: left;
+.off-canvas-content{
+  height: 60vh;
 }
-
-.price {
-  font-weight: bold;
+.black{
+  background-color: #333;
+  font-family: 'Lato', sans-serif;
+}
+.black:hover{
+  background-color: gray;
+}
+.padding-btn{
+  padding: 10px;
+}
+.title > li > a{
+  justify-content: center !important;
+}
+.close-button i{
+  color: white;
+}
+.list li{
+  border-bottom: 1px solid #e1e1e1;
+}
+.off-canvas-content{
+  background-color: white;
+}
+.list > li > a{
+  display: inline-block !important;
+  color: black;
+}
+.list span{
   float: right;
+  margin-top: 10px;
+  margin-right: 10px;
 }
-
-.tiny-description {
-  font-size: 8pt;
-  color: gray;
-  display: inline-block;
+.off-canvas.is-open{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.menu.vertical>li {
+  flex: 0 0 99% !important;
+  border-bottom: 1px solid #bababa;
+}
+.is-accordion-submenu-parent>a:after{
+  border-color: #0a0a0a transparent transparent;
+}
+.is-accordion-submenu-parent a{
+  color: black;
+}
+.txt-color{
+  color: #009c7f;
+}
+.menu.nested {
+  margin-left: 0rem !important;
 }

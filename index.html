@@ -12,42 +12,55 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/fabicon.jpg">
   </head>
   <body>
-
-    <button type="button" class="button" data-toggle="offCanvasRight1">Open Right</button>
-
-  <div class="row columns">
-
-      <div class="off-canvas position-right" id="offCanvasRight1" data-off-canvas>
-        <div class="title">
-        <div class="shop-title">My bag</div>
-        <button class="close-button" aria-label="Close menu" type="button" data-close>
-          <span class="" aria-hidden="true">&gt</span>
-        </button>
-        </div>
-
-        <div class="small-8 columns">
-        <p class="product-title">Descripción</p>
-        <select class="small-5 columns">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-        <p class="price">$123</p>
-        <p class="tiny-description">Estimated arrival at: June.21 - Jul.5</p>
-        </div>
-      
-
-      </div>
-      
-  </div>
+<button type="button" class="alert-btn button small-3 columns" data-toggle="offCanvasRight1"><i class="icon-shopping-bag"></i><strong> Add to Bag</strong></button>
 
 
+<div class="row columns">
+              <div class="off-canvas-wrapper">
+                <div class="off-canvas position-right" id="offCanvasRight1" data-off-canvas>
+                  <!-- CONTENT MY BAG -->
+                  <button class="close-button" aria-label="Close menu" type="button" data-close>
+                    <i class="icon-chevron-right"></i> 
+                  </button>
+                  <ul class="vertical menu title">
+                    <li><a href="#">My Bag</a></li>
+                  </ul>
+                  <div class="off-canvas-content" data-off-canvas-content>
+                    <div class="shipping">  
 
+                    </div>
+                  </div>
+                  <div class="footer-off-canvas">
+                    <ul class="vertical menu title-list" data-accordion-menu>
+                      <li>
+                        <a href="#0">Order Summary</a>
+                        <ul class="menu vertical nested marg-left list">
+                          <li>
+                            <a href="#0">SubTotal</a>
+                            <span>&#36;82</span>
+                          </li>
+                          <li>
+                            <a href="#0">Estimated Shipping Fee</a>
+                            <span class="txt-color"><strong><i>FREE</i></strong></span>
+                          </li>
+                        </ul>
+                      </li>
+                      <ul class="vertical menu list">
+                        <li>
+                          <a href="#0">Total</a>
+                          <span>&#36;82</span>
+                        </li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="padding-btn">
+                    <button type="button" class="button expanded black">Checkout <i class="icon-chevron-right"></i> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-
-
+  
     
 
     <script src="js/vendor/jquery.js"></script>
