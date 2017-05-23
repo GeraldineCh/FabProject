@@ -39,7 +39,7 @@
 	font-size: 15px;
 	margin-left: 30px;
 }
-#carousel @font-face {
+@font-face {
 font-family: "NeutraText-Bold";
 src: url("NeutraText-Bold.otf");
 }
