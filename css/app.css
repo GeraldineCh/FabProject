@@ -3,6 +3,10 @@
   font-style: normal;
   src: url("Neutra Text Book.otf")format("opentype");
 }
+@font-face {
+font-family: "NeutraText-Bold";
+src: url("NeutraText-Bold.otf") format("opentype");
+}
 body {
   font-family: "Neutra Text";
   background-color: #FFFFFF;
@@ -219,4 +223,38 @@ a:hover {
 	#catalogue .columns{
 		padding: 10px;
 	}
+/*SECCIÓN CAROUSEL*/
+#carousel .your-class{
+	margin: 13%;
+}
+#carousel .slider {
+  margin: 100px auto;
+  width: 50%;
+}
+#carousel .slick-slide img {
+  width: 100%;
+}
+#carousel .slick-prev:before,
+#carousel .slick-next:before {
+  background-color: white;
+}
+#carousel img{
+  padding-left: 40px;
+  padding-right: 40px;
+	width: 100%;
+}
+#carousel img:hover{
+	cursor: pointer;
+}
+#carousel h2{
+  color: #666;
+  font-family: "NeutraText-Bold";
+  font-size: 18px;
+	padding: 40px;
+}
+#carousel figcaption{
+  color: #666;
+	font-family: "NeutraText-Bold";
+	font-size: 15px;
+	margin-left: 30px;
 }
