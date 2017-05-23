@@ -2,6 +2,13 @@
 	font-family: 'Lato', sans-serif;
 }
 
+footer{
+	clear:both;
+	min-height:240px;
+	background-color:#fff;
+	border-top:0;
+}
+
 a {
   color: #4a4a4a;
 }
@@ -10,35 +17,21 @@ a:hover {
   color: gray;
 }
 
-footer{
-	clear:both;
-	min-height:240px;
-	background-color:#fff;
-	border-top:0;
-}
-footer *{
-	color: black;
-}
-.fot-fixed-container:before,
-.fot-fixed-container:after{
+.cont-fijo:before,
+.cont-fijo:after{
 	content:" ";
 	display:table
 }
-.fot-fixed-container:after{
+.cont-fijo:after{
 	clear:both
 }
-.fot-content-link{
-	padding-bottom:16px;
-	padding-top:20px;
-}
-.fot-top-links a{
-	font-size: .90em;
-    font-weight: 500;
-}
+
+
 .list-style{
 	list-style: none;
 	margin-left: 0;
 }
+
 .bold{
 	font-weight: bold;
 	font-size: 20px;
