@@ -26,7 +26,7 @@ header img{
   height: 18px;
 }
 /*HEADER - VENTAS*/
-#venta-header.icon {
+.icon {
   height: 1em;
 }
 #venta-header *{
