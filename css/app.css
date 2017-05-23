@@ -1,7 +1,15 @@
-.lato {
+* {
 	font-family: 'Lato', sans-serif;
 }
 
-.nunito {
-	font-family: 'Nunito', sans-serif;
+.shop-title {
+  color: white;
+  background-color: gray;
+  text-align: center;
 }
+
+.total {
+  display: block;
+}
+
+
