@@ -12,4 +12,21 @@
   display: block;
 }
 
+.product-title {
+  font-size: 10pt;
+}
 
+.close-button {
+  float: left;
+}
+
+.price {
+  font-weight: bold;
+  float: right;
+}
+
+.tiny-description {
+  font-size: 8pt;
+  color: gray;
+  display: inline-block;
+}
