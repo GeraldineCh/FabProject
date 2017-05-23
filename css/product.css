@@ -8,12 +8,11 @@ body {
 	background-color: #FFFFFF;
 }
 .view-product {
-  background-color: red;
+
 }
 .view-product .row{
-  background-color: yellow;
+	height: 515px;
   padding: 10px 115px;
-  height: 515px;
 }
 .view-product .columns{
 
@@ -30,11 +29,11 @@ body {
   justify-content: center;
 }
 #mini-product-gallery .img-container{
+	background-color: transparent;
+	border: 1px solid #e9e2db;
+	height: 65px;
+	margin: 5px 0;
   width: 65px;
-  height: 65px;
-  background-color: transparent;
-  margin: 5px 0;
-  border: 1px solid #e9e2db;
 }
 #product-photo {
   padding-left: 35px;
@@ -43,13 +42,4 @@ body {
 #product-photo img{
   height: 100%;
   width: 100%;
-}
-.view-product .columns:nth-child(1){
-  background-color: pink;
-}
-.view-product .columns:nth-child(2){
-  background-color: orange;
-}
-.view-product .columns:nth-child(3){
-  background-color: blue;
 }
