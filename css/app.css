@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Neutra Text";
+  background-color: #FFFFFF;
 }
 header{
   background-color: #171717;
@@ -177,4 +178,45 @@ a:hover {
 .search-content .fa-smile-o{
     font-size: 1.4em;
     cursor: pointer;
+}
+/*SECCIÓN CATÁLOGO*/
+#catalogue .row{
+	padding: 0 ;
+}
+#catalogue .img-container{
+
+}
+#catalogue .img-container a,
+#catalogue .img-container img{
+	width: 100%;
+}
+#catalogue .img-container a{
+	display: inline-block;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	#catalogue .row{
+		margin: 0;
+	}
+	#catalogue .columns{
+		padding: 5px 0;
+	}
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	#catalogue .row{
+		margin: 0;
+	}
+	#catalogue .columns{
+		padding: 5px 0;
+	}
+}
+/* Large and up */
+@media screen and (min-width: 64em) {
+	#catalogue .row{
+		margin: 0 40px;
+	}
+	#catalogue .columns{
+		padding: 10px;
+	}
 }
