@@ -1,22 +1,18 @@
 * {
 	font-family: 'Lato', sans-serif;
 }
-
 footer{
 	background-color:#fff;
 	border-top:0;
 	clear:both;
 	min-height:240px;
 }
-
-a {
+footer a {
   color: #4a4a4a;
 }
-
-a:hover {
+footer a:hover {
   color: gray;
 }
-
 .cont-fijo:before,
 .cont-fijo:after{
 	content:" ";
@@ -25,13 +21,10 @@ a:hover {
 .cont-fijo:after{
 	clear:both
 }
-
-
 .list-style{
 	list-style: none;
 	margin-left: 0;
 }
-
 .bold{
 	font-size: 20px;
 	font-weight: bold;
@@ -73,8 +66,8 @@ a:hover {
 }
 .mostPopular ul{
 	display: inline-block;
-	padding:0;
 	margin:0;
+	padding:0;
 }
 .mostPopular ul li{
 	display:inline-block;
@@ -99,29 +92,25 @@ a:hover {
 .border-bottom{
 	border-bottom: 1px solid #e5e5e5;
 }
-
 .content-circle{
 	background-color: #e54b4d;
-	position: fixed;
+	border-radius: 50%;
 	bottom: 20px;
+	cursor: pointer;
 	left: 15px;
 	padding: 10px 10px 7px 10px;
-	border-radius: 50%;
-	cursor: pointer;
-}
-
-.icon-alarm{
-	font-size: 2.8rem;
-	color: white;
-}
-
-.content-winner{
-	right: 20px;
-	bottom: 20px;
 	position: fixed;
 }
-
+.icon-alarm{
+	color: white;
+	font-size: 2.8rem;
+}
+.content-winner{
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+}
 .content-winner img{
-	width: 128px;
 	height: 128px;
+	width: 128px;
 }
